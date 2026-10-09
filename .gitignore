@@ -1,0 +1,23 @@
+# ===== 依赖 =====
+node_modules/
+
+# ===== 构建产物（dist/ 可在需要时用 npm run build 重新生成）=====
+dist/
+
+# ===== 验证脚本的输出（截图与报告）=====
+.verify/
+
+# ===== 截图脚本用的无头浏览器用户目录（体积很大，切勿提交）=====
+tmp/
+
+# ===== 编辑器 / 系统 =====
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ===== 日志 =====
+*.log
+npm-debug.log*
+pnpm-debug.log*
